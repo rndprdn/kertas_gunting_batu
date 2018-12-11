@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  font-family: Asap, sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: #24272E;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+  
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .score-board {
+    width: 150px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    border: 1px solid #fff;
+    font-size: 2.5rem;
+
+    &__badge {
+      position: absolute;
+      display: inline-block;
+      font-size: 1.3rem;
+      background-color: #E2584D;
+    }
+
+    #user_label {
+      left: -15px;
+      top: 25px;
+    }
+
+    #comp_label {
+      right: -15px;
+      top: 25px;
+    }
+  }
+
+  #result {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 50px;
+  }
+
+  .choices {
+    margin: 50px 0;
+    text-align: center;
+
+
+    &__choice {
+      display: inline-block;
+      padding: 5px;
+      margin: 0 10px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      width: 80px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+// @media (max-width: 767.98px) { ... }
+
+/* Medium devices (tablets, less than 992px) */
+// @media (max-width: 991.98px) { ... }
+
+/* Large devices (desktops, less than 1200px) */
+// @media (max-width: 1199.98px) { ... }

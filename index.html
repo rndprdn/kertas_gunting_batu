@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Kertas Gunting Batu</title>
+  <title>Batu Gunting Kertas</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -21,21 +21,23 @@
     <span id="user_score">0</span>:<span id="comp_score">0</span>
   </div>
 
-  <div class="result">
-    <p>Kertas di Gunting ya kalah, Ferguso!</p>
+  <div id="result">
+    <p>Tentukan pilihanmu!</p>
   </div>
 
   <div class="choices">
-    <div class="choice">
-      <img id="" src="img/rps1.png" alt="">
+    <div id="b" class="choices__choice">
+      <img src="img/1.png" alt="Batu">
     </div>
-    <div class="choice">
-      <img src="img/rps2.png" alt="">
+    <div id="g" class="choices__choice">
+      <img src="img/2.png" alt="Gunting">
     </div>
-    <div class="choice">
-      <img src="img/rps3.png" alt="">
+    <div id="k" class="choices__choice">
+      <img src="img/3.png" alt="Kertas">
     </div>
   </div>
+
+  <script src="app.js"></script>
 </body>
 
 </html>

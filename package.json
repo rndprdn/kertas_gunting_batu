@@ -1,0 +1,23 @@
+{
+  "name": "kertas_gunting_batu",
+  "version": "1.0.0",
+  "description": "Sebuah permainan untuk anda yang sedang gabut :3",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skate473/kertas_gunting_batu.git"
+  },
+  "author": "Abu Ahnaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skate473/kertas_gunting_batu/issues"
+  },
+  "homepage": "https://github.com/skate473/kertas_gunting_batu#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
