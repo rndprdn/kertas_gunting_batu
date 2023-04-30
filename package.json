@@ -18,6 +18,6 @@
   "homepage": "https://github.com/skate473/kertas_gunting_batu#readme",
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "^7.0.0"
+    "node-sass": "^7.0.3"
   }
 }
